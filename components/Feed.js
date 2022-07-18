@@ -1,4 +1,5 @@
 import { SparklesIcon } from "@heroicons/react/outline"
+import Input from "./Input"
 
 
 function Feed() {
@@ -9,10 +10,8 @@ function Feed() {
             <div className="hoverEffect flex items-center justify-center px-0 ml-auto w-9 h-9">
                 <SparklesIcon className="h-5"/>
             </div>
-
-
-            
-        </div>
+         </div>
+         <Input />
     </div>
   )
 }
